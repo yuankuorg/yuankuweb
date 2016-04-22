@@ -1,0 +1,22 @@
+.main{ width:948px; font-family: "微软雅黑"; margin:120px auto 0px; padding-top: 50px;  }
+/*合作企业项目介绍*/
+.main .con{ height: 400px; }
+.main .text_con_top{ width: 650px; margin: 0px auto; color: #f60; border-bottom: 1px dashed #f60; margin-bottom: 20px;}
+.main .text_con_top p{ padding-top: 26px; padding-bottom: 18px;}
+.main  p span{ background: #f60; color: #FFFFff;padding: 6px 8px; font-weight: 700;}
+
+.main .text_con_bottom{width: 650px; margin: 0px auto; color: #000;}
+.main .text_con_bottom p{ margin: 15px 0px;}
+
+/*合作企业*/
+#schoolContent .cont{ display: none;}
+.main .partnership .title a:hover{ text-decoration: none;}
+.main .partnership .title{ background: #EEEEEE; height: 33px; line-height: 31px; border: 1px solid #b5b5b5; margin-bottom: 8px;}
+.main .partnership .title span{ background: #f60; margin: 0px; padding:3px 8px; border-radius: 10px; font-size: 18px; color: #FFFFFF; font-weight: 700;}
+.main .partnership .bg{ background: #eee; border: 1px #B5B5B5 solid; padding: 40px 28px 36px 34px; color: #595757; font-size: 14px; margin-bottom: 8px; font-weight: 100;}
+.main .partnership .bg .bg_left{ padding: 0px; box-shadow: 0px 0px 5px #666; overflow: hidden;}
+.main .partnership .bg .bg_right{ padding-left: 35px; padding-top: 0px;}
+.main .partnership .bg .bg_right span{font-weight: 700;}
+/*分页*/
+.main nav ul li a{ color: #000;}
+/*.main nav ul li a:hover{ background: #f60; color: #fff;}*/

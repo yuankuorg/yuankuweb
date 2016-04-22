@@ -1,0 +1,20 @@
+.zx_con .row{ margin: 0px;}
+.zx_con{width: 776px; margin: 130px auto 50px;}
+.zx_con .zx_title{color: #f60; font-weight: 700; margin-bottom: 30px;}
+.zx_con .zx_title p{ font-size:54px; }
+.zx_con .sub_title{ border-bottom: 1px dashed #f60; height: 73px; line-height: 73px;}
+.zx_con .sub_title span{ padding: 8px 12px 5px 10px; background: #f60; color: #Fff; font-size: 24px; font-weight: 700;}
+.zx_con .sub_text{ margin-bottom: 50px;}
+.zx_con .sub_text p{ line-height: 1.5; letter-spacing:2px; text-indent: 26px;}
+.zx_con .sub_text p:nth-child(1){ margin-top: 25px;}
+
+.zx_con .zx_list{ margin: 36px 0px 50px;}
+.zx_con .zx_list .list_css{ margin-left: 20px; float: left;line-height: 2; border-radius: 20px; padding: 40px; width: 220px; height: 240px; background: #f60; color: #fff; font-size: 14px;}
+.zx_con .title_color{ color: #f60;}
+
+.zx_con .ul{line-height: 2; margin-top: 10px; background: #f60; color: #fff; padding: 10px 15px; border-radius: 15px;}
+
+
+.zx_con .join_zx{ width: 222px; color: #FFFFFF; height: 275px; padding: 18px 18px 0px 18px; float: left; margin-left: 22px; background: #f60; border-radius: 10px;}
+.zx_con .join_zx p{font: 48px impact;}
+.zx_con .join_zx dl{ }

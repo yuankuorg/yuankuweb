@@ -1,0 +1,6 @@
+.new_head{ height: 117px; background: #f60; margin-top: 100px; font-size: 60px; color: #fff;line-height: 117px;}
+.new_con{ width: 730px; margin: 67px auto;}
+.new_con .new_title{ color: #f60;}
+.new_con .new_title h3,h4{ font-weight: 700;}
+.new_con .new_text p{ line-height: 2; text-indent: 28px;}
+.new_con .new_img{ margin-top: 20px; margin-bottom: 40px;}

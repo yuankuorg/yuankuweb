@@ -1,0 +1,31 @@
+/*
+ *头部 
+ */
+.text-yk{ color: #ff6600;}
+.col-md-12{ padding: 0px;}
+.main{ width: 980px; margin: 0px auto; font-family: "微软雅黑"; margin-top: 100px;}
+.main .main_683{ width: 683px;  margin: 0px auto;}
+/*广州运筹网络科技有限公司简介*/
+.main .main_683 .container-fluid .row .title{ color: #f60;}
+.main .row_2{padding:50px 0px 20px; margin-bottom: 20px; line-height: 28px; border-bottom: 1px dashed #f60;}
+.main .row_2 strong{background: #f60;  color: #FFFFFF; padding: 5px;}
+.main .main_683 .container-fluid .row .row_3{ line-height: 28px; margin: 20px 0px 100px; }
+
+/*产品介绍及合作伙伴*/
+.main .main_683 .container-fluid .row dl dd{ background: url(../img/icon_01.png)no-repeat 0px center; line-height: 30px;}
+.main .main_683 .container-fluid .row .pro{ border-bottom: 1px dashed #f60; padding-bottom: 30px; margin-bottom: 20px;}
+.main .main_683 .container-fluid .partner{ padding-bottom: 50px;}
+
+
+/*轮播图*/
+.main .main_876{ width: 876px; height: 598px;  margin: 0px auto; padding-top: 30px; background: url(../img/mian_876_bg.png) no-repeat center 0px;}
+
+.main .main_876 .lb{ width: 725px; height: 411px;margin-left: 77px; overflow: hidden; border-top: 1px solid #000;}
+
+.main .main_876 .carousel .left{ background: none; text-align: left; line-height: 440px;}
+.main .main_876 .carousel .left .glyphicon{ font-size: 40px;}
+
+.main .main_876 .carousel .right{ background: none; text-align: right; line-height: 440px;}
+.main .main_876 .carousel .right .glyphicon{ font-size: 40px;}
+
+
