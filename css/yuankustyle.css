@@ -8,8 +8,6 @@ body {
 
 .yhead {
 	height: 102px;
-	position: fixed;
-	top: 0px;
 	width: 100%;
 	background-color: #FFFFFF;
 	box-shadow: 0px 2px 2px rgba(255, 102, 0, 0.3);
@@ -21,52 +19,15 @@ body {
 	height: 102px;
 }
 
-.nav>li>a {
-	padding: 10px 0px;
-	margin: 0px 10px;
-}
-
-.nav>li>a:hover,
-.nav>li>a:focus {
-	background-color: #Fff;
-}
-
-.nav>li>a {
-	color: #4d4d4d;
-	font: 14px "微软雅黑";
-}
-
-.nav .active {
-	background: none;
-}
-
-.nav-pills>li.active>a,
-.nav-pills>li.active>a:hover,
-.nav-pills>li.active>a:focus {
-	font: 14px "微软雅黑";
-	background: none;
-	border-radius: 0px;
-	border-bottom: 2px solid #ff7920;
-	color: #4d4d4d;
-}
-
-.nav>li>span {
-	display: inline-block;
-	width: 22px;
-	height: 22px;
-	 margin-right: 10px;
-	 margin-top: 10px;
-	border-radius: 100%;
-}
-
+.yhead .nav_margin{
+		margin-top: 42px;
+		float: right;
+	}
 
 /**
  * 内容
  */
 
-.ycontent {
-	height: 475px;
-}
 .ycontent .item a img{
 	height: 475px;
 }
@@ -113,6 +74,53 @@ body {
 }
 #about .about_content p a{ color: #595757;}
 
+
+@media(max-width: 990px){
+	
+	.nav>li>a {
+		padding: 10px 0px;
+		margin: 0px 10px;
+	}
+	#about .about_content {
+		font-size: 14px;
+		margin: 20px 0px;
+	}
+	#about .about_img {
+		line-height: 345px;
+		margin-top: 80px;
+		text-align: center;
+	}
+	#news ul{
+		margin: 20px 25%;
+	}
+}
+@media(max-width: 767px){
+	.yhead .nav_margin{
+		margin-top: 10px;
+		background-color: #000;
+		float: none;
+	}
+	.yhead .nav_margin li a{
+		color: #fff;
+	}
+}
+@media(max-width: 546px){
+	.yhead .logo{
+		padding: 15px 0px 0px;
+		height: auto;
+	}
+	.yhead .logo img{
+		width:100%;
+	}
+	#about .about_img {
+		line-height:100%;
+		margin-top: 80px;
+		text-align: center;
+	}
+	#about .about_img  img{
+		width: 100%;
+	}
+}
 /*
  *服务 
  */
@@ -126,19 +134,20 @@ body {
 	font: "微软雅黑" 18px;
 }
 
-#service .col-xs-2 {
+#service .col-md-2 {
 	margin-right: 40px;
+	text-align: center;
 }
 
-#service .col-xs-2 p {
+#service .col-md-2 p {
 	text-align: center;
 	margin-left: 18px;
 	line-height: 28px;
 }
-#service .col-xs-2 p a{
+#service .col-md-2 p a{
 	color: #fff;
 }
-#service .col-xs-2:hover {
+#service .col-md-2:hover {
 	-webkit-animation-name: updown;
 	-webkit-animation-duration: 1s;
 	-webkit-animation-timing-function: linear;
@@ -182,7 +191,7 @@ body {
 #news ul li {
 	padding-left: 30px;
 	line-height: 22px;
-	background: url(../img/news_li_bg.gif) no-repeat 10px center;
+	background: url(../img/news_li_bg.gif) no-repeat 10px 5px;
 }
 
 #news ul li a {
