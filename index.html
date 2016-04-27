@@ -1,15 +1,17 @@
-﻿<!DOCTYPE html>
+<!DOCTYPE html>
 <html>
+
 	<head>
 		<meta charset="utf-8" />
-		<title>广州澳源股份有限公司 广州源酷创意科技有限公司</title>
-		<meta name="Keywords" content="澳源,源酷,广州澳源 ,澳源股份,源酷创意,广州源酷,广州澳源股份有限公司,广州源酷创意科技有限公司,澳源智享"/>
+		<title>广州澳源股份有限公司 广州源酷创意科技有限公司dfgdfg</title>
+		<meta name="Keywords" content="澳源,源酷,广州澳源 ,澳源股份,源酷创意,广州源酷,广州澳源股份有限公司,广州源酷创意科技有限公司" />
 		<link rel="stylesheet" type="text/css" href="/yuanku_web/css/bootstrap.min.css" />
 		<link rel="stylesheet" type="text/css" href="/yuanku_web/css/yuankustyle.css" />
 		<script src="/yuanku_web/js/jquery-1.10.2.min.js" type="text/javascript" charset="utf-8"></script>
 		<script src="/yuanku_web/js/bootstrap.min.js" type="text/javascript" charset="utf-8"></script>
 		<script src="/yuanku_web/js/jquery.easing.1.3.js" type="text/javascript" charset="utf-8"></script>
 		<script src="/yuanku_web/js/jquery.scrollbox.js" type="text/javascript" charset="utf-8"></script>
+
 		<script type="text/javascript">
 			function scTO(id) {
 				var goTo = $(id).offset().top - 100;
@@ -35,7 +37,7 @@
 						$(".sev_img1").slideDown("slow", 'easeOutBounce', function() {
 							$(".sev_img2").slideDown("slow", 'easeOutBounce', function() {
 								$(".sev_img3").slideDown("slow", 'easeOutBounce', function() {
-									$(".sev_img4").slideDown("slow", 'easeOutBounce',function() {
+									$(".sev_img4").slideDown("slow", 'easeOutBounce', function() {
 										$(".sev_img5").slideDown("slow", 'easeOutBounce');
 									});
 								});
@@ -46,7 +48,7 @@
 			}
 			$(function() {
 				//为导航绑订事件
-				$(".nav-pills li a").click(function() {
+				$(".navbar-nav li a").click(function() {
 					//找到对应的id
 					scTO($(this).attr("href"));
 				});
@@ -61,31 +63,36 @@
 				scTO("#index");
 			});
 		</script>
+		
 	</head>
 
 	<body data-spy="scroll" data-target="#navscroll" data-offset="100">
 		<!--head-->
-		<div class="yhead">
+		<nav class="navbar navbar-default navbar-fixed-top yhead">
 			<div class="container">
-				<div class="col-xs-4 col-xs-offset-1 headlog">
-					<a href="index.html"><img src="img/logo2.png" /><img src="img/logo.png" /></a>
+				<!-- Brand and toggle get grouped for better mobile display -->
+				<div class="navbar-header">
+					<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" style="margin-top: 42px;" aria-expanded="false">
+				        <span class="sr-only">Toggle navigation</span>
+				        <span class="icon-bar"></span>
+				        <span class="icon-bar"></span>
+				        <span class="icon-bar"></span>
+				        <span class="icon-bar"></span>
+				    </button>
+					<a class="navbar-brand logo" href="index1.html"><img src="img/logo3.png" /></a>
 				</div>
-
-				<nav class="col-xs-7" style="height: 100px;" id="navscroll">
-					<ul class="nav nav-pills" style="margin-top: 48px;">
-						<li role="presentation" class="active"><a href="#index">首页</a></li>
+				<div class="collapse navbar-collapse nav_margin" id="bs-example-navbar-collapse-1">
+					<ul class="nav navbar-nav">
+						<li role="presentation"><a href="#index">首页</a></li>
 						<li role="presentation"><a href="#about">关于源酷</a></li>
 						<li role="presentation"><a href="#service">核心服务</a></li>
 						<li role="presentation"><a href="#bus">校企合作</a></li>
 						<li role="presentation"><a href="#news">新闻资讯</a></li>
 						<li role="presentation"><a href="#bottom">联系我们</a></li>
-						<li role="presentation">
-							<span style="background-color:#0d5aa2;"></span><span style="background-color: #0da115;"></span><span style="background-color: #a20d9d;"></span>
-						</li>
 					</ul>
-				</nav>
+				</div>
 			</div>
-		</div>
+		</nav>  
 		<!--end head-->
 
 		<div style="height: 100px;" id="index"></div>
@@ -189,48 +196,50 @@
 
 		<div class="ycontent" id="about">
 			<div class="container">
-				<div class="col-xs-6 about_img">
-					<img src="img/about.png" />
-				</div>
+				<div class="row">
+					<div class="col-md-7 col-xs-12 col-lg-6 about_img">
+						<img src="img/about.png" />
+					</div>
 
-				<div class="col-xs-6 about_content">
-					<ul>
-						<li>
-							<p>
-								<a href="yuanku.html">广州源酷创意科技有限公司由国内知名的金融证券公司和房地产商投资运营。在互联网行业、电子商务业和广告业迅猛发展的时代背景下，源酷创意依靠强大的技术团队为企业和客户提供专业的：IT科技服务、跨境电商与网络营销服务、公司注册与财务咨询服务、商业视觉设计和品牌策划服务、网站策划与互联网开发服务、高端IT人才培养与输送服务等。</a>
-							</p>
-						</li>
-						<li>
-							<p>
-								<a href="yuanku.html">截止2015年，源酷科技公司发展了澳元健、骏企驿站、大健生物科技、运筹科技四家股东公司和十几家分公司。公司业务遍及广州、上海、深圳、成都、长沙、佛山以及美国、澳大利亚、新西兰等国内外20几个城市和地区。</a>
-							</p>
-						</li>
-						<li>
-							<p>
-								<a href="yuanku.html">基于优质的校企合作资源，源酷公司同时为企业提供相关IT技术的内训服务，人才输送服务，高校IT人才实习实训服务以及大学生就业与创业扶持服务。通过整合人才和技术资源，源酷创意不断为广告和IT行业输送新鲜血液。</a>
-							</p>
-						</li>
-						<li>
-							<p>
-								<a href="yuanku.html">源酷使命：为客户提供专业的，符合时代发展趋势并具有竞争力的品牌策划、IT技术及IT人才发展服务。</a>
-							</p>
-						</li>
-						<li>
-							<p>
-								<a href="yuanku.html">源酷愿景：成为国内最权威的品牌策划、IT技术服务及高端人才培养方案的提供商。</a>
-							</p>
-						</li>
-						<li>
-							<p>
-								<a href="yuanku.html">源酷核心价值观：专业、创新、服务、责任。</a>
-							</p>
-						</li>
-						<li>
-							<p>
-								<a href="yuanku.html">源酷发展理念：鼓励源创意，追逐酷潮流。</a>
-							</p>
-						</li>
-					</ul>
+					<div class="col-md-5 col-xs-12 col-lg-6 about_content">
+						<ul>
+							<li>
+								<p>
+									<a href="yuanku.html">广州源酷创意科技有限公司由国内知名的金融证券公司和房地产商投资运营。在互联网行业、电子商务业和广告业迅猛发展的时代背景下，源酷创意依靠强大的技术团队为企业和客户提供专业的：IT科技服务、跨境电商与网络营销服务、公司注册与财务咨询服务、商业视觉设计和品牌策划服务、网站策划与互联网开发服务、高端IT人才培养与输送服务等。</a>
+								</p>
+							</li>
+							<li>
+								<p>
+									<a href="yuanku.html">截止2015年，源酷科技公司发展了澳元健、骏企驿站、大健生物科技、运筹科技四家股东公司和十几家分公司。公司业务遍及广州、上海、深圳、成都、长沙、佛山以及美国、澳大利亚、新西兰等国内外20几个城市和地区。</a>
+								</p>
+							</li>
+							<li>
+								<p>
+									<a href="yuanku.html">基于优质的校企合作资源，源酷公司同时为企业提供相关IT技术的内训服务，人才输送服务，高校IT人才实习实训服务以及大学生就业与创业扶持服务。通过整合人才和技术资源，源酷创意不断为广告和IT行业输送新鲜血液。</a>
+								</p>
+							</li>
+							<li>
+								<p>
+									<a href="yuanku.html">源酷使命：为客户提供专业的，符合时代发展趋势并具有竞争力的品牌策划、IT技术及IT人才发展服务。</a>
+								</p>
+							</li>
+							<li>
+								<p>
+									<a href="yuanku.html">源酷愿景：成为国内最权威的品牌策划、IT技术服务及高端人才培养方案的提供商。</a>
+								</p>
+							</li>
+							<li>
+								<p>
+									<a href="yuanku.html">源酷核心价值观：专业、创新、服务、责任。</a>
+								</p>
+							</li>
+							<li>
+								<p>
+									<a href="yuanku.html">源酷发展理念：鼓励源创意，追逐酷潮流。</a>
+								</p>
+							</li>
+						</ul>
+					</div>
 				</div>
 			</div>
 		</div>
@@ -238,35 +247,35 @@
 		<div class="ycontent bg-primary" id="service">
 			<div class="container">
 				<div class="row">
-					<div class="col-xs-2 sev_img1">
+					<div class="col-xs-12 col-sm-3 col-md-2 sev_img1">
 						<a href="subpage_visual.html"><img src="img/service_img_01.gif" /></a>
 						<p>
 							<a href="subpage_visual.html">商业视觉设计
 							<br /> 与品牌策划服务</a>
 						</p>
 					</div>
-					<div class="col-xs-2 sev_img2">
+					<div class="col-xs-12 col-sm-3 col-md-2 sev_img2">
 						<a href="subpage_Inter.html"><img src="img/service_img_02.gif" /></a>
 						<p>
 							<a href="subpage_Inter.html">网站策划与
 							<br/>互联网开发服务</a>
 						</p>
 					</div>
-					<div class="col-xs-2 sev_img3">
+					<div class="col-xs-12 col-sm-3 col-md-2 sev_img3">
 						<a href="yuanku_kjds.html"><img src="img/service_img_03.gif" /></a>
 						<p>
 							<a href="yuanku_kjds.html">跨境电商及
 							<br/>网络营销服务</a>
 						</p>
 					</div>
-					<div class="col-xs-2 sev_img4">
+					<div class="col-xs-12 col-sm-3 col-md-2 sev_img4">
 						<a href="service_it.html"><img src="img/service_img_04.gif" /></a>
 						<p>
 							<a href="service_it.html">高端 IT人才
 							<br/>培养与输送服务</a>
 						</p>
 					</div>
-					<div class="col-xs-2 sev_img5" style="margin-right: 0px;">
+					<div class="col-xs-12 col-sm-3 col-md-2 sev_img5" style="margin-right: 0px;">
 						<a href="yk_zx.html"><img src="img/service_img_05.gif" /></a>
 						<p>
 							<a href="yk_zx.html">储备精英 助学成才
@@ -280,25 +289,23 @@
 		<div class="ycontent" id="bus">
 			<div class="container">
 				<div class="row feature">
-					<div class="col-md-7">
+					<div class="col-md-7 col-xs-12 col-sm-12">
 						<div class="row">
-							<div class="col-md-4" style="text-align: right;">
+							<div class="col-md-4 col-xs-4" style="text-align: right;">
 								<a href="enterprise.html"><img src="img/bus_img_02.gif" /></a>
 							</div>
-							<div class="col-md-8">
+							<div class="col-md-8 col-xs-8">
 								<dl>
 									<dt>资源整合  互利共赢</dt>
-									<dd><a href="enterprise.html">源酷创意自成立以来先后同电讯盈科，汇丰软件，中长康达，启宏科技，百度，前程无忧，广州欧蓝自动化公司，帅天广告公司，火之鸟广告公司，志科电子商务公司，腾科网络技术公司等华南区200多家公司建立了长期合作关系。其合作方式包括：企业品牌策划与广告设计服务；高端技术人才联合培养与输送合作...</a>
-									</dd>
+									<dd><a href="enterprise.html">源酷创意自成立以来先后同电讯盈科，汇丰软件，中长康达，启宏科技，百度，前程无忧，广州欧蓝自动化公司，帅天广告公司，火之鸟广告公司，志科电子商务公司，腾科网络技术公司等华南区200多家公司建立了长期合作关系。其合作方式包括：企业品牌策划与广告设计服务；高端技术人才联合培养与输送合作...</a></dd>
 								</dl>
-
 							</div>
 						</div>
 						<div class="row">
-							<div class="col-md-4" style="text-align: right; margin-top: 20px;">
+							<div class="col-md-4 col-xs-4" style="text-align: right; margin-top: 20px;">
 								<a href="school.html"><img src="img/bus_img_03.gif" /></a>
 							</div>
-							<div class="col-md-8">
+							<div class="col-md-8 col-xs-8">
 								<dl>
 									<dt>优势互补，共享人才培养成果</dt>
 									<dd><a href="school.html">自2010年以来，源酷依靠自身在业界良好的口碑和技术实力，先后同广东外语外贸大学，广美学院，五邑大学，广东工业大学，广州大学，广东轻工职业技术学院，广东工贸职业技术学院，广东农工商职业技术学院等30多家高校建立了平面广告设计，互联网特效设计，网站建设，软件开发，移动互联网开发等多个专业方向的实习实训合作...</a></dd>
@@ -307,8 +314,8 @@
 							</div>
 						</div>
 					</div>
-					<div class="col-md-5">
-						<img class="feature-image img-responsive" src="img/bus_img_01.gif" alt="合作企业" style=" margin-left: 10px;">
+					<div class="col-md-5 col-xs-12 col-sm-12">
+						<img class="feature-image img-responsive" src="img/bus_img_01.gif" alt="合作企业" style=" margin:0 auto;">
 					</div>
 				</div>
 			</div>
@@ -317,11 +324,11 @@
 		<div class="ycontent bg-primary" id="news">
 			<div class="container">
 				<div class="row">
-					<div class="col-md-8">
-						<img src="img/news_img.gif" style="margin-top: 75px;" />
+					<div class="col-md-8 col-xs-12">
+						<img src="img/news_img.gif" style="margin-top: 75px;width: 100%;" />
 					</div>
 
-					<div class="col-md-4">
+					<div class="col-md-4 col-xs-12">
 						<ul class="list-unstyled" style="margin-top: 100px;">
 							<li><a href="yk_new.html">我与源酷有个约会@农工商计算机系校内周末...</a></li>
 							<li><a href="http://www.yuanku.org/yuanku/mobile-third-113.html">圣诞？狂欢？~看源酷</a></li>
@@ -345,10 +352,10 @@
 		<div class="bg-primary" id="bottom">
 			<div class="container-fluid">
 				<div class="row" style="margin-top: 100px;">
-					<img src="img/botton_img.jpg"/>
+					<img src="img/botton_img.jpg" style="width: 100%;" />
 				</div>
 			</div>
-			
+
 			<div class="container">
 				<div class="row">
 					<div class="col-md-5">
@@ -372,15 +379,6 @@
 			</div>
 		</div>
 		<div style="height: 100px;"></div>
-		<script>
-		var _hmt = _hmt || [];
-		(function() {
-		  var hm = document.createElement("script");
-		  hm.src = "//hm.baidu.com/hm.js?ba91ab6d2e13683d11c231b771efe2dd";
-		  var s = document.getElementsByTagName("script")[0];
-		  s.parentNode.insertBefore(hm, s);
-		})();
-		</script>
 	</body>
 
 </html>
