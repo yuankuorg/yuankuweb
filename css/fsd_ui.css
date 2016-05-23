@@ -19,7 +19,14 @@
 	color: #fff;
 	margin: 0px;
 }
-
+.carousel .carousel_btn_position_ui{
+	border: 3px solid #fff;
+	position: absolute;
+	left: 15%;
+	top: 80%;
+	color: #fff;
+	margin: 0px;
+}
 .menu_list {
 	padding-bottom: 20px;
 	background: url(img/ui_icon05.png) no-repeat 24% 50px, url(img/ui_icon05.png) no-repeat 50% 50px, url(img/ui_icon05.png) no-repeat 76% 50px;
