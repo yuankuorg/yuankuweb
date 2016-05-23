@@ -1,0 +1,157 @@
+.carousel_btn {
+	width: 12%;
+	height: 44px;
+	border-radius: 22px;
+	background-color: transparent;
+	outline: none;
+	font-size: 28px;
+	font-family: "黑体";
+	line-height: 44px;
+	padding: 0px;
+	margin: 40px 0px;
+}
+
+.carousel .carousel_btn_position {
+	border: 3px solid #fff;
+	position: absolute;
+	left: 60%;
+	top: 84%;
+	color: #fff;
+	margin: 0px;
+}
+
+.menu_list {
+	padding-bottom: 20px;
+	background: url(img/ui_icon05.png) no-repeat 24% 50px, url(img/ui_icon05.png) no-repeat 50% 50px, url(img/ui_icon05.png) no-repeat 76% 50px;
+	border-bottom: 1px solid #b1b1b1;
+}
+
+.list_btn {
+	border: 3px solid #fe6277;
+	color: #fe6277;
+}
+
+h1.title {
+	background-position: center;
+	background-repeat: no-repeat;
+	color: #fff;
+	height: 82px;
+	line-height: 65px;
+	margin: 40px 0px 40px;
+}
+
+div.p_fontSize {
+	font-size: 52px;
+	font-weight: 700px;
+	margin-top: 20px;
+}
+
+div.p_color {
+	color: #333;
+	font-size: 20px;
+}
+
+img.ui_img02 {
+	width: 100%;
+}
+
+div.stage {
+	height: 150px;
+	margin-bottom: 20px;
+}
+
+div.stage div {
+	padding: 0px;
+}
+
+div.stage dl {
+	margin: 0px 8px;
+	background-color: #fafafa;
+	height: 150px;
+	padding-left: 30px;
+}
+
+div.stage dt,
+div.stage dd {
+	line-height: 30px;
+	padding-left: 10px;
+}
+
+div.stage .stage_float dd {
+	float: left;
+}
+
+div.stage div:first-child {
+	line-height: 150px;
+	font-size: 50px;
+	color: #fafafa;
+	padding-right: 30px;
+}
+
+button.stage_btn {
+	border: 3px solid #fafafa;
+	color: #fafafa;
+}
+
+button.btn_yellow {
+	border: 3px solid #fed942;
+	color: #fed942;
+}
+
+h1.title_h1 {
+	color: #41c8fe;
+	width: 668px;
+	height: 73px;
+	background-color: #fff;
+	line-height: 73px;
+	text-align: center;
+	margin: 0px auto;
+}
+
+.team {
+	padding-bottom: 20px;
+}
+
+.team dl {
+	width: 18%;
+	float: left;
+	margin: 0px 1%;
+}
+
+.team dl dd:first-of-type {
+	font-size: 18px;
+	font-weight: 700;
+}
+
+.team dl dd {
+	font-size: 12px;
+	color: #4c4c4c;
+}
+
+#enterprise p {
+	color: #ff5959;
+	padding: 0px 0px 10px 140px;
+}
+
+#enterprise p:first-of-type {
+	font-size: 60px;
+}
+
+.fsd_btn {
+	border: 3px solid #222;
+	color: #222;
+}
+
+p.p_bg {
+	padding: 16px 0px;
+	margin: 0px 40px 2px;
+}
+
+p.p_font {
+	margin: -8px 40px 0px;
+	padding: 10px 16px 0px 14px;
+	background-color: #5d5d5d;
+	color: #fff;
+	font-size: 12px;
+	height: 86px;
+}

@@ -100,7 +100,7 @@ body {
 		background-color: #000;
 		float: none;
 	}
-	.yhead .nav_margin li a{
+	.yhead .nav_margin li a:hover{
 		color: #fff;
 	}
 }
